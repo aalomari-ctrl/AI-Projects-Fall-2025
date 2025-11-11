@@ -70,13 +70,13 @@ Open in your browser: http://127.0.0.1:8001/docs
 
     Try the /predict endpoint
 
-![Imagepredict](predictpost.png)
+![images](predictpost.png)
 
     Enter email text
-![Imagepredict](textemailenter.png)
+![images](textemailenter.png)
 
     Click Execute to get prediction
-![Imagepredict](result.png)
+![images](result.png)
 6. Notes / Troubleshooting
 
     If you see errors like Expected 2D array, got 1D array, make sure the pipeline is loaded correctly and you’re passing a single string inside a list: [email_text].
