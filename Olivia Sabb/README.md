@@ -2,9 +2,9 @@
 
 This project implements a **machine learning-based spam detector** using a scikit-learn pipeline with FastAPI for deployment.
 
-## 1. Create & activate a virtual environment
-
 ```bash
+1. Create & activate a virtual environment
+
 Linux / macOS
 
 python3 -m venv .venv
@@ -15,7 +15,7 @@ Windows
 python -m venv .venv
 .venv\Scripts\activate
 
-2. Install dependencies
+## 2. Install dependencies
 
 pip install -r requirements.txt
 
