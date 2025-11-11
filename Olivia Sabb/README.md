@@ -4,8 +4,9 @@ This project implements a **machine learning-based spam detector** using a sciki
 
 ## 1. Create & activate a virtual environment
 
-### Linux / macOS
 ```bash
+Linux / macOS
+
 python3 -m venv .venv
 source .venv/bin/activate
 
