@@ -70,13 +70,16 @@ Open in your browser: http://127.0.0.1:8001/docs
 
     Try the /predict endpoint
 
-![images](images/predictpost.png)
+<img width="1482" height="130" alt="predictpost" src="https://github.com/user-attachments/assets/6fd22159-aa15-4f9c-8bdd-e78270a42b49" />
+
 
     Enter email text
-![images](images/textemailenter.png)
+<img width="1426" height="355" alt="textemailenter" src="https://github.com/user-attachments/assets/d6e7289b-e2e4-4e19-a20d-a42a0371a45a" />
 
     Click Execute to get prediction
-![images](images/result.png)
+<img width="1920" height="1080" alt="result" src="https://github.com/user-attachments/assets/807ab922-2d65-44ae-ba13-b54f3db01a8a" />
+
+
 6. Notes / Troubleshooting
 
     If you see errors like Expected 2D array, got 1D array, make sure the pipeline is loaded correctly and you’re passing a single string inside a list: [email_text].
