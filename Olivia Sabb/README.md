@@ -5,6 +5,8 @@ This project implements a **machine learning-based spam detector** using a sciki
 ```bash
 1. Create & activate a virtual environment
 
+Move spam detector elsewhere as you can't cd into 'Olivia Sabb' due to spaces, then open it in an IDE
+
 Linux / macOS
 
 python3 -m venv .venv
@@ -19,9 +21,9 @@ python -m venv .venv
 
 pip install -r requirements.txt
 
-3. Run Jupyter notebooks (prepare and train model)
+(Make sure you select kernel)
 
-    EDA
+3. Run Jupyter notebooks (prepare and train model)
 
 jupyter notebook notebooks/01_eda.ipynb
 
@@ -57,6 +59,18 @@ Using CURL
 curl -X POST "http://127.0.0.1:8001/predict" \
 -H "Content-Type: application/json" \
 -d '{"text": "Congratulations! You won a prize!"}'
+
+or, you can click on try it out and replace 
+
+{
+  "text": "string"
+}
+
+with something like
+
+{
+  "text": "Congratulations!!!!! You won a FREE Jeep Wrangler! Click the link below to accept"
+}
 
 Expected response:
 
