@@ -2,7 +2,9 @@
 
 Name: Matthew Ingram
 
-Date: November 3, 2025
+Original Date: November 3, 2025
+
+Most Recent Update: November 13, 2025
 
 My project for this semester is to create an image classification model which can be given an input of an image of a food item (of various types), and then attempt to classify that food item.
 
