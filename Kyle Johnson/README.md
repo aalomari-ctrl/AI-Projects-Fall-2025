@@ -1,14 +1,11 @@
 # KASPER AI Seizure Log
---
 
 ### Creator: Kyle Johnson
 
 KASPER AI is a machine-learning seizure-risk estimator designed to help users track potential seizure triggers, symptoms, and frequent patterns.
 The idea is to provide risk analysis, pattern recognition, and data-driven feedback, but it is ***NOT*** a substitute for professional medical advice.
 
-This project was built using [Epilepsy Disorder Dataset] (https://www.kaggle.com/datasets/amanik000/epilepsy-disorder-dataset?resource=download) with diagnostic categories removed.
-
---
+This project was built using [Epilepsy Disorder Dataset](https://www.kaggle.com/datasets/amanik000/epilepsy-disorder-dataset?resource=download) with diagnostic categories removed.
 
 ## Updates
 
@@ -18,8 +15,6 @@ This project was built using [Epilepsy Disorder Dataset] (https://www.kaggle.com
 - Removed more unessential categories to focus on seizure-related triggers and symptoms from the dataset
 - Users can input more than one symptom and trigger
 - Better user feedback is produced
-
---
 
 ## Accuracy
 
